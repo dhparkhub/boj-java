@@ -12,10 +12,10 @@ public class Main {
         int n = Integer.parseInt(st.nextToken());
 
         int min = 1000000;
-        int max = 1;
+        int max = -1000000;
 
         st = new StringTokenizer(br.readLine());
-        for (int i=0; i<n; i++) {
+        for (int i = 0; i < n; i++) {
             int temp = Integer.parseInt(st.nextToken());
             min = Math.min(min, temp);
             max = Math.max(max, temp);
