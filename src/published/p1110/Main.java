@@ -1,4 +1,4 @@
-package solved.p1110;
+package published.p1110;
 
 import java.util.Scanner;
 
