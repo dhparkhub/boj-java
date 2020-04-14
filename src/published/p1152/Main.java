@@ -1,4 +1,4 @@
-package solved.p1152;
+package published.p1152;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -9,7 +9,8 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        System.out.println(st.countTokens());
+        bw.write(String.valueOf(st.countTokens()));
+        bw.flush();
     }
 
 }
