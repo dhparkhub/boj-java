@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
+        sc.close();
+        
         char grade;
         if (score >= 90) {
             grade = 'A';
