@@ -9,7 +9,6 @@ public class Main {
         int[] cache = new int[1001];
         Arrays.fill(cache, 0);
 
-        int sum = 0;
         for (int i = 1; i <= 1000; i++) {
             if (i < 100) {
                 cache[i]++;
