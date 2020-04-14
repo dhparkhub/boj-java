@@ -1,4 +1,4 @@
-package p10039;
+package solved.p10039;
 
 import java.util.Scanner;
 
