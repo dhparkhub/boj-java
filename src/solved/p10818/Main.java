@@ -1,3 +1,5 @@
+package solved.p10818;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
