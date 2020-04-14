@@ -1,3 +1,5 @@
+package solved.p4344;
+
 import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
@@ -22,7 +24,7 @@ public class Main {
 
             double average = (double) sum / n;
             int[] temp = Arrays.stream(nums).filter(i -> (double) i > average).toArray();
-            
+
             double percentage = (double) (100 * temp.length) / nums.length;
             bw.write(String.format("%.3f", percentage) + "%");
             bw.newLine();
