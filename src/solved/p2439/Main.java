@@ -1,3 +1,5 @@
+package solved.p2439;
+
 import java.util.Scanner;
 
 public class Main {
