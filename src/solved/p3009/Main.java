@@ -1,3 +1,5 @@
+package solved.p3009;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
