@@ -9,6 +9,8 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
+        br.close();
+
         int n = Integer.parseInt(st.nextToken());
         int k = 0;
         for (int i = 1; i <= n; i++) {
@@ -16,8 +18,10 @@ public class Main {
                 k++;
             }
         }
+
         bw.write(String.valueOf(k));
         bw.flush();
+        bw.close();
     }
 
     private static boolean isHanSoo(int n) {
@@ -27,9 +31,7 @@ public class Main {
             int x = n % 10;
             int y = (n / 10) % 10;
             int z = n / 100;
-            if (x - y == y - z) {
-                return true;
-            }
+            return x - y == y - z;
         }
         return false;
     }
