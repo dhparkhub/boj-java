@@ -1,4 +1,4 @@
-package solved.p1157;
+package published.p1157;
 
 import java.util.Arrays;
 import java.util.Scanner;
