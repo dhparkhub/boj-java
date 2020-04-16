@@ -1,3 +1,5 @@
+package solved.p11729;
+
 import java.util.Scanner;
 
 public class Main {
