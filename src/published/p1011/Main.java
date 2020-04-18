@@ -1,4 +1,4 @@
-package solved.p1011;
+package published.p1011;
 
 import java.io.*;
 import java.util.StringTokenizer;
