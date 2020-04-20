@@ -1,4 +1,4 @@
-package solved.p1193;
+package published.p1193;
 
 import java.io.*;
 import java.util.StringTokenizer;
