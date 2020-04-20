@@ -1,4 +1,4 @@
-package solved.p1316;
+package published.p1316;
 
 import java.io.*;
 import java.util.Arrays;
