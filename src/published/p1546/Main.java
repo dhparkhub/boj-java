@@ -1,4 +1,4 @@
-package solved.p1546;
+package published.p1546;
 
 import java.io.*;
 import java.util.StringTokenizer;
