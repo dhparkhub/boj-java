@@ -1,4 +1,4 @@
-package solved.p1330;
+package published.p1330;
 
 import java.util.Scanner;
 
