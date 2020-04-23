@@ -1,4 +1,4 @@
-package solved.p1929;
+package published.p1929;
 
 import java.io.*;
 import java.util.Arrays;
