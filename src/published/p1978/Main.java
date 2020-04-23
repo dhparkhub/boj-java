@@ -1,4 +1,4 @@
-package solved.p1978;
+package published.p1978;
 
 import java.io.*;
 import java.util.Arrays;
