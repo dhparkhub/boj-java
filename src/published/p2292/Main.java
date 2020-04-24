@@ -1,4 +1,4 @@
-package solved.p2292;
+package published.p2292;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -9,6 +9,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
+        br.close();
         int n = Integer.parseInt(st.nextToken());
         int k = 1;
         int temp = 1;
@@ -19,6 +20,7 @@ public class Main {
         }
         bw.write(String.valueOf(k));
         bw.flush();
+        bw.close();
     }
 
 }
