@@ -1,4 +1,4 @@
-package solved.p2446;
+package published.p2523;
 
 import java.util.Scanner;
 
@@ -10,22 +10,14 @@ public class Main {
         sc.close();
 
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             for (int j = 0; j < i; j++) {
-                sb.append(" ");
-            }
-            int temp = 2 * (n - i) - 1;
-            for (int j = 0; j < temp; j++) {
                 sb.append("*");
             }
             sb.append("\n");
         }
-        for (int i = n - 2; i >= 0; i--) {
-            for (int j = 0; j < i; j++) {
-                sb.append(" ");
-            }
-            int temp = 2 * (n - i) - 1;
-            for (int j = 0; j < temp; j++) {
+        for (int i = 1; i < n; i++) {
+            for (int j = i; j < n; j++) {
                 sb.append("*");
             }
             sb.append("\n");
