@@ -1,4 +1,4 @@
-package solved.p2557;
+package published.p2557;
 
 public class Main {
 
