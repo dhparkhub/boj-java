@@ -1,4 +1,4 @@
-package solved.p2562;
+package published.p2562;
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -21,7 +21,10 @@ public class Main {
             }
         }
 
-        System.out.println(String.format("%d\n%d", maxValue, maxIndex));
+        bw.write(String.format("%d\n%d", maxValue, maxIndex));
+        bw.flush();
+        bw.close();
+        br.close();
     }
 
 }
