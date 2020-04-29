@@ -1,4 +1,4 @@
-package solved.p2577;
+package published.p2577;
 
 import java.util.Arrays;
 import java.util.Scanner;
