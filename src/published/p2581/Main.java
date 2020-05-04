@@ -1,4 +1,4 @@
-package solved.p2581;
+package published.p2581;
 
 import java.io.*;
 import java.util.Arrays;
