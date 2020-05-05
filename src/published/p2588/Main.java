@@ -1,4 +1,4 @@
-package solved.p2588;
+package published.p2588;
 
 import java.util.Scanner;
 
